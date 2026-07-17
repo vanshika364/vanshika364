@@ -47,7 +47,7 @@
 ## 🍴 Featured Project: ForkCast
 
 <p align="center">
-  <a href="https://github.com/Karan-C21/ForkCast">
+  <a href="https://fork-cast-lilac.vercel.app">
     <img src="https://img.shields.io/badge/Explore%20ForkCast-%F0%9F%8D%B4-ff69b4?style=for-the-badge" />
   </a>
 </p>
