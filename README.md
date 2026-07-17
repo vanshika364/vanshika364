@@ -1,7 +1,7 @@
-<h1 align="center">Hey there 👋 I'm Vanshika Bajaj</h1>
+<h1 align="center">Hey👋 I'm Vanshika </h1>
 
 <p align="center">
-  <b>Machine Learning Engineer · Data Scientist · Responsible AI</b>
+  <b>Machine Learning Engineer · Data Scientist</b>
 </p>
 
 <p align="center">
