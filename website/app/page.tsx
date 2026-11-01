@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const industries = ["Finance", "Manufacturing", "Healthcare"];
 
 const experience = [
@@ -93,10 +95,22 @@ export default function Home() {
 
       <section className="hero shell" id="top">
         <div className="eyebrow"><span /> New York, NY</div>
-        <h1>
-          I build intelligent systems
-          <em> where the real work happens.</em>
-        </h1>
+        <div className="heroTitle">
+          <h1>
+            I build intelligent systems
+            <em> where the real work happens.</em>
+          </h1>
+          <div className="portraitWrap">
+            <Image
+              className="portrait"
+              src="/vanshika-profile.jpg"
+              alt="Illustrated portrait of Vanshika working at her computer"
+              width={460}
+              height={460}
+              priority
+            />
+          </div>
+        </div>
         <div className="heroBottom">
           <p className="heroIntro">
             I&apos;m Vanshika, a <strong>Forward Deployed Engineer</strong>, Machine
