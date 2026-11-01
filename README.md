@@ -1,14 +1,14 @@
 <h1 align="center">Hey👋 I'm Vanshika </h1>
 
 <p align="center">
-  <b>Machine Learning Engineer · Data Scientist</b>
+  <b>Forward Deployed Engineer at Perficient</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Machine%20Learning-Engineer-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/NLP-%F0%9F%A4%96-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Generative%20AI-%E2%9C%A8-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Search%20%26%20Ranking-%F0%9F%94%8D-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Forward%20Deployed-Engineering-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Finance-1F4E79?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Manufacturing-5C677D?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Healthcare-2A9D8F?style=for-the-badge" />
 </p>
 
 ---
@@ -17,17 +17,23 @@
 
 🎓 M.S. in Information Science from **Cornell University**
 
-🤖 I love building machine learning systems that turn messy data into useful, intuitive, and intelligent product experiences.
+💼 I'm a **Forward Deployed Engineer at Perficient**, focused on turning complex business problems into practical technology solutions.
 
-🔍 My interests include **NLP, Generative AI, search, ranking, recommendation systems, embeddings, semantic search, and product analytics**.
+🏦 My work spans **finance, manufacturing, and healthcare**, where I apply AI, data, and software engineering to industry-specific challenges.
+
+🤖 I enjoy building intelligent systems that turn messy data and ambiguous requirements into useful, intuitive product experiences.
+
+🔍 My interests include **Generative AI, NLP, search, ranking, recommendation systems, embeddings, semantic search, and product analytics**.
 
 💡 I especially enjoy working at the intersection of:
 
-`Machine Learning` · `Data` · `Products` · `User Experience`
+`AI` · `Data` · `Engineering` · `Industry Solutions` · `User Experience`
 
 ---
 
 ## 🚀 What I've Been Building
+
+🛠️ At **Perficient**, I work as a Forward Deployed Engineer, helping translate real-world needs in finance, manufacturing, and healthcare into deployable technical solutions.
 
 📊 At **Intuit**, I worked with more than **5 million customer journey records**, building analytics pipelines and studying user behavior to support product rollout and adoption decisions.
 
@@ -123,54 +129,6 @@ My contributions included:
 🎯 Recommendation systems
 ⚙️ Scalable machine learning systems
 ✨ AI products that people actually enjoy using
-
----
-
-## 🧠 Open Source Skills
-
-### Learn in Layers
-
-I created **[Learn in Layers](./skills/learn-in-layers)**, an AI skill for learning without the usual wall of text. It teaches a topic at the smallest useful depth—**2, 5, 10, or 30 minutes**—using plain language, concrete examples, and only the metrics that matter.
-
-Inspired by [Caveman](https://github.com/juliusbrussee/caveman)'s belief that every word should earn its place, this skill focuses on concise understanding rather than maximum compression.
-
-Highlights:
-
-* Defaults to a practical five-minute explanation
-* Uses ELI5 when it improves comprehension, without being patronizing
-* Leads with a useful mental model instead of a dictionary definition
-* Pulls out important KPIs when real measurable outcomes exist
-* Expands naturally when you ask it to go deeper
-
-Install it with:
-
-```bash
-npx skills add vanshika364/vanshika364 -g
-```
-
-Then try:
-
-```text
-$learn-in-layers Explain product-market fit in 10 minutes and include the KPIs.
-```
-
-### Paper to Practice
-
-**[Paper to Practice](./skills/paper-to-practice)** turns research papers into evidence-aware implementation decisions. It separates reported results from inference, evaluates whether the experiments support the claims, and designs the smallest useful prototype.
-
-Highlights:
-
-* Explains the core contribution and mechanism in plain English
-* Connects major claims to experiments, baselines, and metrics
-* Surfaces limitations, transfer assumptions, and reproduction gaps
-* Creates a minimum viable prototype and evaluation plan
-* Ends with a clear adopt, explore, monitor, or wait recommendation
-
-Try it with:
-
-```text
-$paper-to-practice Review this paper and design a small prototype to test it on my data.
-```
 
 ---
 
