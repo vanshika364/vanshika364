@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const industries = ["Finance", "Manufacturing", "Healthcare"];
 
 const experience = [
@@ -101,13 +99,14 @@ export default function Home() {
             <em> where the real work happens.</em>
           </h1>
           <div className="portraitWrap">
-            <Image
+            {/* This local image is intentionally rendered directly for vinext compatibility. */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               className="portrait"
               src="/vanshika-profile.jpg"
               alt="Illustrated portrait of Vanshika working at her computer"
               width={460}
               height={460}
-              priority
             />
           </div>
         </div>
