@@ -126,7 +126,9 @@ My contributions included:
 
 ---
 
-## 🧠 Open Source: Learn in Layers
+## 🧠 Open Source Skills
+
+### Learn in Layers
 
 I created **[Learn in Layers](./skills/learn-in-layers)**, an AI skill for learning without the usual wall of text. It teaches a topic at the smallest useful depth—**2, 5, 10, or 30 minutes**—using plain language, concrete examples, and only the metrics that matter.
 
@@ -150,6 +152,24 @@ Then try:
 
 ```text
 $learn-in-layers Explain product-market fit in 10 minutes and include the KPIs.
+```
+
+### Paper to Practice
+
+**[Paper to Practice](./skills/paper-to-practice)** turns research papers into evidence-aware implementation decisions. It separates reported results from inference, evaluates whether the experiments support the claims, and designs the smallest useful prototype.
+
+Highlights:
+
+* Explains the core contribution and mechanism in plain English
+* Connects major claims to experiments, baselines, and metrics
+* Surfaces limitations, transfer assumptions, and reproduction gaps
+* Creates a minimum viable prototype and evaluation plan
+* Ends with a clear adopt, explore, monitor, or wait recommendation
+
+Try it with:
+
+```text
+$paper-to-practice Review this paper and design a small prototype to test it on my data.
 ```
 
 ---

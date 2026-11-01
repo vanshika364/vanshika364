@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper to Practice"
+  short_description: "Turn research papers into practical implementation plans"
+  default_prompt: "Use $paper-to-practice to explain this paper and turn it into an actionable prototype plan."
