@@ -1,11 +1,16 @@
 <h1 align="center">Hey👋 I'm Vanshika </h1>
 
 <p align="center">
-  <b>Forward Deployed Engineer at Perficient</b>
+  <b>Forward Deployed Engineer · Machine Learning Engineer · Data Scientist</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Forward%20Deployed-Engineering-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-Engineering-6A5ACD?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Data-Science-0077B5?style=for-the-badge" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Finance-1F4E79?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Manufacturing-5C677D?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Healthcare-2A9D8F?style=for-the-badge" />
