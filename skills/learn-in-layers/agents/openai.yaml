@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learn in Layers"
+  short_description: "Clear explanations sized to your available time"
+  default_prompt: "Use $learn-in-layers to teach me this topic in the right level of depth."

@@ -126,6 +126,34 @@ My contributions included:
 
 ---
 
+## 🧠 Open Source: Learn in Layers
+
+I created **[Learn in Layers](./skills/learn-in-layers)**, an AI skill for learning without the usual wall of text. It teaches a topic at the smallest useful depth—**2, 5, 10, or 30 minutes**—using plain language, concrete examples, and only the metrics that matter.
+
+Inspired by [Caveman](https://github.com/juliusbrussee/caveman)'s belief that every word should earn its place, this skill focuses on concise understanding rather than maximum compression.
+
+Highlights:
+
+* Defaults to a practical five-minute explanation
+* Uses ELI5 when it improves comprehension, without being patronizing
+* Leads with a useful mental model instead of a dictionary definition
+* Pulls out important KPIs when real measurable outcomes exist
+* Expands naturally when you ask it to go deeper
+
+Install it with:
+
+```bash
+npx skills add vanshika364/vanshika364 -g
+```
+
+Then try:
+
+```text
+$learn-in-layers Explain product-market fit in 10 minutes and include the KPIs.
+```
+
+---
+
 ## 🤝 Let's Connect
 
 <p align="center">
