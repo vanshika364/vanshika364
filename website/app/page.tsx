@@ -5,32 +5,24 @@ const experience = [
     period: "Present",
     role: "Forward Deployed Engineer",
     company: "Perficient",
-    summary:
-      "Turning complex business needs into practical AI, data, and software solutions across highly specialized industries.",
     tags: ["Solution engineering", "Applied AI", "Data systems"],
   },
   {
     period: "May - Aug 2025",
     role: "Data Science Intern",
     company: "Intuit",
-    summary:
-      "Analyzed 5M customer-journey records, built SQL and Databricks pipelines, and evaluated product experiments that informed rollout and adoption decisions.",
     tags: ["Databricks", "Experimentation", "Product analytics"],
   },
   {
     period: "Jan - Aug 2024",
     role: "Software Engineer",
     company: "Loyal Advisory",
-    summary:
-      "Built commodity forecasting models and a Power BI analytics system that surfaced logistics and cost inefficiencies for leadership.",
     tags: ["Forecasting", "Power BI", "Energy"],
   },
   {
     period: "2023",
     role: "Trainee Engineer & Intern",
     company: "Principal Global Services",
-    summary:
-      "Improved data workflows supporting 500K daily financial transactions and contributed to an AWS migration that cut processing time by 40%.",
     tags: ["AWS", "ETL", "Financial systems"],
   },
 ];
@@ -84,7 +76,7 @@ export default function Home() {
         <div className="navLinks">
           <a href="#work">Work</a>
           <a href="#projects">Projects</a>
-          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
           <a className="contactLink" href="mailto:vb364@cornell.edu">
             Contact
           </a>
@@ -94,10 +86,7 @@ export default function Home() {
       <section className="hero shell" id="top">
         <div className="eyebrow"><span /> New York, NY</div>
         <div className="heroTitle">
-          <h1>
-            I build intelligent systems
-            <em> where the real work happens.</em>
-          </h1>
+          <h1>AI systems.<em> Real-world impact.</em></h1>
           <div className="portraitWrap">
             {/* This local image is intentionally rendered directly for vinext compatibility. */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -112,9 +101,7 @@ export default function Home() {
         </div>
         <div className="heroBottom">
           <p className="heroIntro">
-            I&apos;m Vanshika, a <strong>Forward Deployed Engineer</strong>, Machine
-            Learning Engineer, and Data Scientist translating complex problems into
-            useful, deployable products.
+            <strong>Forward Deployed Engineer</strong> · Machine Learning Engineer · Data Scientist
           </p>
           <div className="industryList" aria-label="Industries">
             {industries.map((industry, index) => (
@@ -126,20 +113,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="statement">
-        <div className="shell statementInner">
-          <p>
-            My work sits at the intersection of <strong>AI</strong>, <strong>data</strong>,
-            and <strong>industry expertise</strong>—from financial workflows and
-            manufacturing operations to healthcare information systems.
-          </p>
-        </div>
-      </section>
-
       <section className="section shell" id="work">
         <div className="sectionHeading">
-          <p>Selected experience</p>
-          <h2>Building from ambiguity to impact.</h2>
+          <p>Experience</p>
+          <h2>Work</h2>
         </div>
         <div className="timeline">
           {experience.map((item) => (
@@ -150,7 +127,6 @@ export default function Home() {
                 <p className="company">{item.company}</p>
               </div>
               <div className="experienceDetail">
-                <p>{item.summary}</p>
                 <div className="tags">
                   {item.tags.map((tag) => <span key={tag}>{tag}</span>)}
                 </div>
@@ -163,8 +139,8 @@ export default function Home() {
       <section className="projects section" id="projects">
         <div className="shell">
           <div className="sectionHeading projectHeading">
-            <p>Selected projects</p>
-            <h2>Ideas made tangible.</h2>
+            <p>Selected</p>
+            <h2>Projects</h2>
           </div>
           <div className="projectGrid">
             {projects.map((project) => (
@@ -179,18 +155,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section shell" id="about">
+      <section className="section shell" id="skills">
         <div className="aboutGrid">
           <div className="sectionHeading">
-            <p>About & expertise</p>
-            <h2>Technical depth. Product instinct.</h2>
+            <p>Toolkit</p>
+            <h2>Skills</h2>
           </div>
           <div className="aboutCopy">
-            <p>
-              I enjoy the messy middle: understanding the real constraint, finding the
-              useful signal, and working across technical and business teams to ship
-              something people can trust.
-            </p>
             <div className="skillList">
               {skills.map((skill) => (
                 <div key={skill.label}>
@@ -209,20 +180,18 @@ export default function Home() {
           <article>
             <p className="degree">Master of Science in Information Science</p>
             <h2>Cornell University</h2>
-            <p>Machine Learning Engineering · Deep Learning · Trust & Safety · HCI</p>
           </article>
           <article>
             <p className="degree">Bachelor of Engineering in Information Technology</p>
             <h2>Ramdeobaba University</h2>
-            <p>Engineering foundations · Software · Data systems</p>
           </article>
         </div>
       </section>
 
       <footer className="footer shell">
         <div>
-          <p className="footerLead">Have a complex problem worth solving?</p>
-          <a className="email" href="mailto:vb364@cornell.edu">Let&apos;s talk.</a>
+          <p className="footerLead">Get in touch</p>
+          <a className="email" href="mailto:vb364@cornell.edu">Hello.</a>
         </div>
         <div className="footerLinks">
           <a href="https://www.linkedin.com/in/vanshika-bajaj/">LinkedIn</a>
